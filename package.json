@@ -1,0 +1,23 @@
+{
+  "name": "joker-bot-demo",
+  "version": "1.0.0",
+  "description": "Send joke to Discord Chat Server",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiateeters/joker-bot.git"
+  },
+  "author": "Cynthia Teeters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cynthiateeters/joker-bot/issues"
+  },
+  "homepage": "https://github.com/cynthiateeters/joker-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0"
+  }
+}
