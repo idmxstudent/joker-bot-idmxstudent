@@ -4,6 +4,9 @@ const client = new Discord.Client();
 const dotenv = require('dotenv');
 
 dotenv.config();
+
+http.createServer(onRequest).listen(process.env.PORT || 6000);
+
 const clientID = process.env.CLIENT_ID;
 
 console.log('running ❤️');
