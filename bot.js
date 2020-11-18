@@ -1,3 +1,4 @@
+const http = require('http');
 const Jokes = require('./jokes.json');
 const Discord = require('discord.js');
 const client = new Discord.Client();
